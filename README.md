@@ -1,29 +1,41 @@
-omer_churn_predictor\Customer_Churn_Predictor.ipynb" "D:\Shreyash_Projects\Customer-Churn-Predictor\"
-copy : Cannot find path 'D:\Shreyash_Projects\Customer_
-churn_predictor\Customer_Churn_Predictor.ipynb'
-because it does not exist.
-At line:1 char:1
-+ copy "D:\Shreyash_Projects\Customer_churn_predictor\C 
-ustomer_Churn_Pr ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-~~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (D:\Shre  
-   yash_Pro...Predictor.ipynb:String) [Copy-Item], It   
-  emNotFoundException
-    + FullyQualifiedErrorId : PathNotFound,Microsoft.P  
-   owerShell.Commands.CopyItemCommand
+# Customer Churn Predictor 🔄
 
-PS D:\Shreyash_Projects> copy "D:\Shreyash_Projects\Customer_churn_predictor\Customer_Churn_Predictor.ipynb" "D:\Shreyash_Projects\Customer-Churn-Predictor\"
-copy : Cannot find path 'D:\Shreyash_Projects\Customer_
-churn_predictor\Customer_Churn_Predictor.ipynb'
-because it does not exist.
-At line:1 char:1
-+ copy "D:\Shreyash_Projects\Customer_churn_predictor\C 
-ustomer_Churn_Pr ...
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
-~~~~~~~~~~~~~~~~
-    + CategoryInfo          : ObjectNotFound: (D:\Shre  
-   yash_Pro...Predictor.ipynb:String) [Copy-Item], It   
-  emNotFoundException
-    + FullyQualifiedErrorId : PathNotFound,Microsoft.P  
-   owerShell.Commands.CopyItemCommand
+A machine learning project that predicts whether a passenger 
+survived the Titanic disaster using classification algorithms.
+
+## 🎯 Problem Statement
+Predict survival of Titanic passengers based on features like 
+age, gender, passenger class, and fare paid.
+
+## 🛠️ Tech Stack
+- Python
+- Pandas & NumPy
+- Matplotlib & Seaborn
+- Scikit-learn (Logistic Regression)
+- Jupyter Notebook
+
+## 📊 Project Workflow
+1. Data Loading & Exploration
+2. Data Cleaning (missing values)
+3. Exploratory Data Analysis
+4. Feature Engineering
+5. Model Building
+6. Model Evaluation
+
+## 📈 Results
+- Model Accuracy: **79.89%**
+- Most important feature: **Gender (Sex)**
+- Key insight: Female passengers had 3x higher survival rate
+
+## 🔍 Key Findings
+- 68% of survivors were female
+- 1st class passengers had 63% survival rate vs 24% for 3rd class
+- Higher fare = higher survival probability
+
+## 📁 Files
+- `Customer_Churn_Predictor.ipynb` - Main project notebook
+
+## 👤 Author
+**Shreyash Mandlik**  
+[GitHub](https://github.com/shreyash-mandlik) | 
+[LinkedIn](https://linkedin.com/in/shreyash-mandlik)
