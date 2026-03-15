@@ -34,6 +34,8 @@ age, gender, passenger class, and fare paid.
 
 ## 📁 Files
 - `Customer_Churn_Predictor.ipynb` - Main project notebook
+- ## 🌐 Live Demo
+👉 [Try the app here!](https://titanic-predictor-cv9dw9ybikrrdpziwvyzzf.streamlit.app/)
 
 ## 👤 Author
 **Shreyash Mandlik**  
